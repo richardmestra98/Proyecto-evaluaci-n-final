@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/img/Fondo.png) fixed no-repeat;
+    background-size: 100%;
+}
+
+.border_blue{
+    height: 130px;
+    width: 100%;
+    background: rgb(42, 184, 250);
+    position: fixed;
+    z-index: -1;
+}
+#nav{
+    margin: 15px 0 0 0;
+}
+#photo{
+    width: 150px;
+    height: 130px;
+    margin: 15px 0 0 0;
+    border-radius: 15px;
+}
+#logo{
+    display: inline-flex;
+}#logo h1{
+    font-size: 2.2rem;
+    margin: 70px 0 0 20px;
+    color: white;
+    font-style: italic;
+    }
+.menu{
+    position: absolute;
+    right: 220px;
+}
+.menu ul li{
+    position: relative;
+    margin: 0 3px 0 3px;
+    font-size: .8rem;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    background: rgb(1, 86, 159);
+    display: inline-block;
+}.menu ul li a{
+    color: white;
+}
+.social{
+    position: absolute;
+    margin-left: -90px;
+    margin-top: -25px;
+}.social ul li a i{
+    color: white;
+    font-size: 50px;
+    margin: 8px 0;
+    }
+.galery{
+    position: relative;
+    }.galery img{
+    width: 100%;
+    display: inline-block;
+    margin: 5px 0;
+    }
+.descrip img{
+    float: left;
+    margin: 1.8% 1.8% 1.8% 0;
+    width: 35%;
+    }.descrip h2{
+        margin: 3% 0 0 0;
+        font-size: 1.2rem;
+    }.descrip p{
+        text-align: justify;
+    }
+.info-text{
+    position: relative;
+    display: inline;
+}
+.info-text ul li{
+    font-size: .6rem;
+    padding: 1%;
+    border-radius: 10px;
+    margin: 0;
+    width: 60%;
+    display: initial;
+    background-color: rgb(236, 233, 236);
+}
+#info-person{
+    justify-content: center;
+}#info-person img{
+    margin-top: 10%;
+    width: 30%;
+    border-radius: 100px;
+}#info-person h5{
+    font-size: 1.2rem;
+}#info-person hr{
+    height: 1px;
+    background: gray;
+}#info-person p{
+    font-size: .8rem;
+}
+.coment{
+    background: rgba(71, 151, 255, 0.904);
+}.coment #title{
+    color: white;
+    font-size: 1.5rem;
+    }.coment input{
+        color: white;
+    }.coment i{
+        color: white;
+    }
+form a{
+    margin: 0 30px 30px 0;
+    color: rgba(71, 151, 255, 0.904);
+}form .btn{
+    color: rgba(71, 151, 255, 0.904);
+}
+
+/*Media Query*/
+@media screen and (max-width: 370px){
+    #photo{
+        width: 150px;
+        height: 130px;
+        margin: 15px 0 0 0;
+        border-radius: 15px;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        background: url(/img/Fondo.png) fixed no-repeat;
+        height: 100%;
+    }
+    .menu{
+        right: 255px;
+    }
+    .menu ul li{
+        position: relative;
+        margin: 0 3px 0 3px;
+        font-size: .8rem;
+        text-transform: uppercase;
+        padding: 10px 20px 10px 20px;
+        background: rgb(1, 86, 159);
+        display: inline-block;
+    }.menu ul li a{
+        color: white;
+    }
+    .descrip img{
+        width: 100%;
+        }.descrip h2{
+            margin: 3% 0 0 0;
+            font-size: 1.4rem;
+        }
+        .info-text{
+            position: relative;
+            display: inline-block;
+        }
+        .info-text ul li{
+            font-size: .8rem;
+            padding: 3%;
+            border-radius: 10px;
+            margin: 0;
+            width: 60%;
+            display: inline-block;
+            background-color: rgb(236, 233, 236);
+        }
+        form a{
+            margin: 0 0px 20px 0;
+        }
+        #photo{
+            width: 150px;
+            height: 130px;
+            margin: 15px 0 0 -20px;
+            border-radius: 15px;
+        }
+        #nav{
+            margin: 15px 0 0 0;
+            display: inline-block;
+        }
+        #logo h1{
+            font-size: 2.2rem;
+            margin: 150px 0 0 0px;
+            color: white;
+            font-style: italic;
+            width: 100%;
+            }
+}

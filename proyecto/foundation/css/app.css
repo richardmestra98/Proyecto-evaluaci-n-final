@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('/img/Fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+#cabecera{
+    background: rgba(39, 37, 170, 0.397);
+    padding: 5px;
+}
+#cabecera, h1,h5 {
+    color: white;
+}
+#cabecera p {
+    padding: 5px;
+}
+#logo{
+    border-right: 1.5px solid grey;
+}
+#sec-left{
+    background: rgba(223, 225, 246, 0.397);
+}
+#sec-right{
+    background: rgb(255, 233, 248);
+    border: none;
+    margin: 0px 8px 0px 15px;
+    border-radius: 0;
+    padding: 30px 15px;
+}
+#sec-right #text-sec{
+    color: rgb(214, 93, 174);
+}
+#sec-right #text-sec{
+    color: rgb(214, 93, 174);
+}
+#buscar{
+    background: rgb(214, 93, 174);
+}
+#btn-left{
+    display: grid;
+}
+#btn-left a {
+    border:1px solid rgb(214, 93, 174);
+    color: rgb(214, 93, 174);
+    font-weight: bold;
+    margin: 1px;
+}
+#btn-left .button {
+    background: rgba(39, 37, 170, 0);
+}
+#div-img{
+    padding: 10px;
+}
+#div-img img{
+    height: 140px;
+}
+#coment{
+    border-top: 1px solid grey;
+    padding-top: 20px;
+}
+#coment textarea{
+    margin: 0;
+}
+#coment button{
+    background: rgb(214, 93, 174);
+}
+#coment-user{
+    background: transparent;
+    border: 1px solid rgba(212, 212, 212, 0.623);
+    border-radius: 6px;
+    margin: 0;
+}
+#coment-user img{
+    width: 80%;
+    padding: 5px;
+}
+#coment-user #text{
+    padding-top:20px;
+}
+li{
+    list-style: none;
+}
+li ul li{
+    margin: 10px;
+}
+#historial{
+    color: rgb(214, 93, 174);
+}
+#imgP{
+    border: 3px solid white;
+}
+/*Media Querys*/
+@media (min-width: 300px) and (max-width:768px){
+    #sec-left{
+        display: none;
+    }
+    #sec-right{
+        margin: 0;
+    }
+    .grid-container{
+    padding: 0;
+    }
+    #logo{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    #cabecera{
+        padding-top: 0;
+    }
+    #text{
+        padding: 0;
+    }
+    #text p{
+        padding: 0;
+        margin: 0;
+    }
+}

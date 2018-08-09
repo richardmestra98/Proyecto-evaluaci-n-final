@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+body{
+    overflow-x: hidden;
+    background: rgb(124, 37, 45);
+}
+.container{
+    background: white;
+}
+/*------------------------- Estilos de cabecera ------------------------*/
+#nav-social{
+    display: inline-flex;
+    list-style: none;
+    margin-top: 200px;
+    margin-right: 40px;
+}
+#nav-social li a i{
+    width: 35px;
+    font-size: 40px;
+}
+#logo{
+    width: 200px;
+    margin: 40px 10px 40px 10px;
+}
+#nav-item{
+    padding: 0;
+}
+#nav-item{
+    padding: 0;
+    margin: 0;
+    background: rgb(255, 172, 106);
+    color: black;
+    font-size: 15px;
+    padding: 20px;
+    border: 0;
+    border-radius: 0;
+    cursor: default;
+}
+#nav-item a{
+    color: black;
+    padding: 21px 21px;
+    text-decoration-line: none;
+}
+#nav-item a:hover{
+    background: white;
+}
+.fa-youtube-square{
+    color: red;
+}
+.fa-facebook-square{
+    color: blue;
+}
+.fa-instagram{
+    color: rgb(73, 114, 151);
+}
+.fa-pinterest-square{
+    color: rgb(197, 34, 52);
+}
+.fa-twitter-square{
+    color: rgb(87, 173, 242);
+}
+/*------------------------- Estilos de cuerpo ------------------------*/
+#contenedor{
+    margin-top: 20px;
+}
+#txt{
+    display: flex;
+    padding-top: 30px; 
+}
+#txt  img{
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+}
+#list{
+    padding-left: 0;
+    margin-top: 50px;
+}
+
+#list td:hover{
+    background: rgb(174, 174, 174);
+}
+#list button:active{
+    overflow: hidden;
+}
+#coment i{
+    padding: 0;
+    padding-top: 5px;
+    font-size: 60px;
+}
+#coment{
+    display: flex;
+}
+/*---------- Media Query-------------*/
+@media (min-width: 300px) and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    #txt{
+        display:initial;
+    }
+    #txt img{
+        width: 100%;
+    }
+    #nav-social{
+        margin: 0 21%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    #list{
+        display: none;
+    }
+}

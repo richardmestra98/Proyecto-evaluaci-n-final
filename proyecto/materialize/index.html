@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <div class="border_blue"></div>
+        <div class="container">
+            <!-- Aqui va la cabecera -->
+            <div class="col s12 l12" id="nav">
+                <div class="col l12" id="logo">
+                    <img class="col s12" id="photo" src="img/photo.jpg" alt="">
+                    <h1 class="col s12">Creando mi propio camino</h1>
+                    <div class="menu">
+                            <ul>
+                                <li><a href=""><i class="fas fa-home"></i>&nbsp;&nbsp;Inicio</a></li>
+                                <li><a href=""><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Estuve En...</a></li>
+                                <li><a href=""><i class="fas fa-star"></i>&nbsp;&nbsp;Mejores Viajes</a></li>
+                                <li><a href=""><i class="fas fa-comment-alt"></i>&nbsp;&nbsp;Recomendaciones</a></li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Esta parte es el menu de red social -->
+            <div class="row"></div>
+            <div class="social">
+                <ul>
+                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+                    <li><a href=""><i class="fab fa-pinterest-square"></i></a></li>
+                    <li><a href=""><i class="fab fa-youtube-square"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <!-- Aqui van las imagenes -->
+            <div class="row galery">
+                    <div class="col l4">
+                        <img src="img/l1.jpg" alt="">
+                        <img src="img/l2.jpg" alt="">
+                    </div>
+                    <div class="col l4">
+                        <img src="img/l4.jpg" alt="">
+                    </div>
+                    <div class="col l4">
+                        <img src="img/l3.jpg" alt="">
+                        <img src="img/l5.jpg" alt="">
+                        <img src="img/l6.png" alt="">
+                    </div>                          
+            </div>
+        </div>
+    </div>
+    <section class="container">
+        <div class="row">
+            <!-- Aqui va el card te texto -->
+            <div class="col l10 card descrip">
+                <img class="col s12" src="img/acuario.jpg" alt="acuario"/>
+                <h2 class="col s12">El Acuario</h2>
+                <div class="info-text">
+                    <ul>
+                        <li>12 de febrero del 2016&nbsp;&nbsp;<i class="far fa-calendar"></i></li>
+                        <li>Orlando Fl, Estados Unidos&nbsp;&nbsp;<i class="fas fa-map-marker-alt"></i></li>
+                    </ul>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, magnam. Et, eligendi. Saepe, nihil laudantium, cum explicabo sint odit tempora id blanditiis debitis voluptate unde et deserunt! Eum, accusamus fuga. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste tenetur asperiores expedita! Iusto, repellat, voluptate nobis, assumenda ipsam odit soluta dignissimos quas inventore delectus laudantium quibusdam? Iusto atque esse id.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eos consectetur aut facere tempora odio cumque minus animi, aperiam nisi dolores assumenda. Commodi, vitae omnis? Eveniet quisquam ipsam expedita repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequuntur vitae esse veritatis dignissimos iste aspernatur ipsum, odit nostrum sunt est ipsa adipisci, iure maiores recusandae cupiditate ullam quasi reiciendis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse ullam sit dolore nemo optio, vitae provident labore fuga id, iusto enim ea ipsam minima, illo modi rerum similique assumenda deleniti!</p>
+            </div>
+            <!-- Informacion del perfil -->
+            <div class="col l2 card center-align" id="info-person">
+                <img  src="img/person.jpg" alt="">
+                <h5>Perfil del Autor</h5>
+                <hr>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid deleniti sit, pariatur beatae porro quae nulla voluptatem cupiditate modi officiis molestiae reiciendis asperiores perspiciatis doloremque ullam possimus, facere magnam! Unde! lor</p>
+            </div>
+            <!-- Sector de comentarios -->
+            <div class="col l10 card coment">
+                <p id="title">Deja tu comentario</p>
+                <form action="">
+                        <div class="input-field col s6 l6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">First Name</label>
+                        </div>
+                        <div class="input-field col s6 l6">
+                            <i class="material-icons prefix">email</i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">First Name</label>
+                        </div>
+                        <div class="input-field col s12 l12">
+                            <i class="material-icons prefix">chat</i>
+                            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                            <label for="icon_prefix2">First Name</label>
+                        </div>
+                        <div class="right-align col s12 center-align"><a href="#" class="waves-effect waves-light white btn">Button</a></div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

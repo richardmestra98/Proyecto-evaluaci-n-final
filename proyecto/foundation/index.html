@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+</head>
+<body  class="grid-container">
+    <div id="cabecera">
+        <!--Cabecera-->
+        <div class="grid-x">
+            <div class="cell large-4" id="logo">
+                <h1>Cocinando</h1>
+                <p class="h5 text-right">El Blog de los alimentos de tu Gastronomia</p>
+            </div>
+        </div> 
+        <hr>
+        <!--Cuerpo-->
+        <div class="grid-x">
+            <div class="cell large-4">
+              <div class="card-section" id="sec-left">
+                  <div class="input-group">
+                      <input class="input-group-field" type="text">
+                      <div class="input-group-button">
+                            <input type="submit" class="button" value="Ir" id="buscar">
+                      </div>
+                  </div>
+                  <div class="expanded button-group" id="btn-left">
+                     <a class="button">Item 1</a>
+                     <a class="button">Item 2</a>
+                     <a class="button">Item 3</a>
+                   </div>
+                   <div class="grid-container">
+                <div class="grid-x grid-padding-x small-up-2 medium-up-3">
+                  <div class="cell" id="div-img">
+                    <div class="card">
+                      <img src="img/Fondo.jpg">
+                    </div>
+                  </div>
+                  <div class="cell" id="div-img">
+                    <div class="card">
+                      <img src="img/Fondo.jpg">
+                    </div>
+                  </div>
+                  <div class="cell" id="div-img">
+                    <div class="card">
+                      <img src="img/Fondo.jpg">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-x grid-padding-x small-up-2 medium-up-3">
+                <div class="cell" id="div-img">
+                  <div class="card">
+                    <img src="img/Fondo.jpg">
+                  </div>
+                </div>
+                <div class="cell" id="div-img">
+                  <div class="card">
+                    <img src="img/Fondo.jpg">
+                  </div>
+                </div>
+                <div class="cell" id="div-img">
+                  <div class="card">
+                    <img src="img/Fondo.jpg">
+                  </div>
+                </div>
+              </div>     
+              <div class="grid-x" id="historial"> 
+                  <li>
+                    <p>Hisotrial</p>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                        <li>Item 5</li>
+                      </ul>
+                  </li>
+                </div>
+              </div> 
+            </div>
+            <div class="cell large-8 small-12">
+              <div class="card" id="sec-right">
+                <h4>Pasta artesanal</h4>
+                <p id="text-sec">2 de Julio 8:35 am</p>
+                <img src="img/img-1.jpg" alt="" id="imgP">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda eius sunt magnam consequatur, error nulla quo quod consectetur nisi, iste eum eos suscipit libero dolorem ab excepturi fugit provident aspernatur.</p>
+                <div id="coment">
+                  <label>
+                    Escribe un comentario
+                    <textarea rows="2"></textarea>
+                  </label>
+                  <button type="button" class="button float-right">Publicar</button>
+                </div>
+                  <!--Comentario de usuarios-->
+                  <div class="grid-x card" id="coment-user">
+                    <div class="cell large-2 small-2">
+                      <img src="img/User-Female.png" alt="">
+                    </div>
+                    <div class="cell large-10 small-10" id="text">
+                        <p>Esta es una receseta muy buena, facil y deliciosa</p>
+                    </div>
+                  </div>
+                  <div class="grid-x card" id="coment-user">
+                    <div class="cell large-2 small-2">
+                      <img src="img/User-Male.png" alt="">
+                    </div>
+                    <div class="cell large-10 small-10" id="text">
+                        <p>Esta es una receseta muy buena, facil y deliciosa</p>
+                    </div>
+                  </div>
+                  <div class="grid-x card" id="coment-user">
+                    <div class="cell large-2 small-2">
+                      <img src="img/User-Male.png" alt="">
+                    </div>
+                    <div class="cell large-10 small-10" id="text">
+                        <p>Esta es una receseta muy buena, facil y deliciosa</p>
+                    </div>
+                  </div>
+              </div>
+              <br>
+              <div class="card" id="sec-right">
+                  <h4>Los mejores jugos  naturales para adelagazar</h4>
+                  <p id="text-sec">25 de Mayo 3:35 pm</p>
+                  <img src="img/img-2.jpg" alt="" id="imgP">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda eius sunt magnam consequatur, error nulla quo quod consectetur nisi, iste eum eos suscipit libero dolorem ab excepturi fugit provident aspernatur.</p>
+                  <div id="coment">
+                    <label>
+                      Escribe un comentario
+                      <textarea rows="2"></textarea>
+                      <button type="button" class="button float-right">Publicar</button>
+                    </label>
+                  </div>
+                    <!--Comentario de usuarios-->
+                    <div class="grid-x card" id="coment-user">
+                      <div class="cell large-2 small-2">
+                        <img src="img/User-Female.png" alt="">
+                      </div>
+                      <div class="cell large-10 small-10" id="text">
+                          <p>Este jugo relamente ayuda a adelgazar, a mi me funcionó :)</p>
+                      </div>
+                    </div>
+                    <div class="grid-x card" id="coment-user">
+                      <div class="cell large-2 small-2">
+                        <img src="img/User-Male.png" alt="">
+                      </div>
+                      <div class="cell large-10 small-10" id="text">
+                          <p>Si ayuda a bajar de peso y es delicioso</p>
+                      </div>
+                    </div>
+                    <div class="grid-x card" id="coment-user">
+                      <div class="cell large-2 small-2">
+                        <img src="img/User-Male.png" alt="">
+                      </div>
+                      <div class="cell large-10 small-10" id="text">
+                          <p>Excelente sin duda alguna</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
